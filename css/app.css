@@ -10648,9 +10648,10 @@ fieldset:disabled .btn {
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.733);
+  background-color: rgba(255, 255, 255, 0.817);
   backdrop-filter: blur(20px) contrast(130%);
   z-index: 999;
+  transition: all 0.5s ease;
 }
 
 .header-icon {
