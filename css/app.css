@@ -10650,8 +10650,7 @@ fieldset:disabled .btn {
 .header {
   background-color: rgba(255, 255, 255, 0.817);
   backdrop-filter: blur(20px) contrast(130%);
-  z-index: 999;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in;
 }
 
 .header-icon {
@@ -10663,5 +10662,12 @@ fieldset:disabled .btn {
   width: 65px;
   height: 65px;
   fill: green;
+}
+
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: all 0.5s ease-in;
 }
 /*# sourceMappingURL=app.css.map */
